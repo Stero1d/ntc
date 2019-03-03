@@ -1,0 +1,11 @@
+.user_info.list_user_item {
+    margin-bottom: 15px;
+}
+
+.user_list_item {
+    position: relative;
+}
+
+.user_info.list_user_item {
+    cursor: pointer;
+}

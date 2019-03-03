@@ -1,0 +1,45 @@
+@import "../../../../styles/styles.css";
+
+#info_article_comments {
+    width: 100%;
+    padding: 25px;
+    background: white;
+    margin-top: 15px;
+    border: 1px solid rgba(0,0,0,0.1)
+}
+
+.comments_title {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-right: 20px;
+    font-family: 'Roboto-Bold';
+}
+
+.comments_header {
+    display: flex;
+    align-items: center;
+}
+
+.input_my_comment {
+    margin: 20px 0px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.container_send_comment {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.comment_head {
+    margin-bottom: 5px;
+}
+
+.comments_header i.icon {
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px!important;
+    position: relative;
+    top: 2px;
+}

@@ -1,0 +1,56 @@
+@import "../../../styles/styles.css";
+
+.development_date_name {
+    font-size: 12px;
+    width: 40px;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.development_item {
+    margin: 20px 0px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.development_description {
+    width: 100%;
+    max-height: 55px;
+    color: rgba(0, 0, 0, 0.6);
+    word-break: break-word;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    font-size: 14px;
+    font-family: 'Roboto-Regular';
+    margin-left: 10px;
+}
+
+.development_description_block_ellipsis {
+    position: absolute;
+    bottom: 0px;
+    right: 18px;
+    background: #fff;
+    width: 28px;
+    height: 17px;
+    text-align: center;
+}
+
+.renderItems_developments {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.development_date_day {
+    color: #212020;
+    font-size: 18px;
+    font-family: 'Roboto-Bold';
+}
+
+.development_date_month {
+    font-family: 'Roboto-Medium';
+    color: rgba(0, 0, 0, 0.64);
+    font-size: 14px;
+}

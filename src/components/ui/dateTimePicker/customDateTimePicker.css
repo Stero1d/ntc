@@ -1,0 +1,123 @@
+.customDatePicker {
+    font-size: 14px;
+    position: relative;
+}
+
+.customDatePickerIcon {
+    overflow: initial;
+    opacity: 1;
+}
+
+.customDatePickerIcon-container {
+    cursor: pointer;
+    position: relative;
+    right: 25px;
+    display: flex;
+    align-items: center;
+    padding: 2px 5px 2px 2px;
+}
+
+.customDatePickerIcon-container[disabled] {
+    cursor: default;
+}
+
+.customDatePickerIcon:hover {
+    fill: #7CB8B0!important;
+}
+
+.customDatePickerIcon-container[disabled] .customDatePickerIcon:hover {
+    fill: grey !important;
+}
+
+.customDatePickerIcon-container.chat-list-item-tooltip::after {
+    left: 0;
+    top: 28px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 11px;
+    background: rgba(0,0,0,0.7);
+    z-index: 100;
+}
+
+.customDatePickerIcon-container.chat-list-item-tooltip::before {
+    opacity: 0;
+}
+
+.customCalendarDatePicker {
+    margin: 6px 0;
+    position: absolute;
+    z-index: 99;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+    background: #fff;
+    border-radius: 4px;
+    right: 0;
+    bottom: 32px;
+}
+
+#time-btn-date-picker {
+    margin: 2px 15px 10px;
+    border-top: 1px solid rgb(224, 224, 224);
+}
+
+.btn-date-picker {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+    margin-top: 10px;
+}
+
+.time-date-picker {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px 0px;
+    align-items: center;
+    color: grey;
+    font-size: 14px;
+}
+
+.time-date-picker-title {
+    margin-right: 10px;
+}
+
+.btn-save-datePicker:hover {
+    opacity: 0.8;
+}
+
+.time-date-picker-value {
+    font-size: 14px;
+}
+
+#popup-list-time {
+    background: #fff;
+    color: rgb(124, 123, 123);
+    border-radius: 4px;
+    overflow: auto;
+    position: absolute;
+    top: 26px;
+    left: 0px;
+    z-index: 999;
+}
+
+#popup-list-time > div {
+    text-align: left;
+    width: 66px;
+    cursor: pointer;
+    padding: 3px 0px 3px 8px;
+}
+
+#popup-list-time > div:hover {
+    background: rgb(235, 235, 235);
+}
+
+.projectIssueError {
+    white-space: nowrap;
+}
+
+.datePickerInput[disabled] {
+    border: none !important;
+}
+
+.customCalendarDatePicker > div > div {
+    border-radius: 4px;
+}

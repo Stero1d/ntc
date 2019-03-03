@@ -1,0 +1,45 @@
+@import "../../../../styles/styles.css";
+
+#main_developments_block {
+    /*width: 430px;*/
+    padding: 20px;
+}
+
+#main_developments_block .main_developments_block_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#main_developments_block .main_developments_block_head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#main_developments_block .main_developments_block_head
+.main_developments_block_title {
+    font-size: 20px;
+    font-family: 'Roboto-Bold';
+}
+
+#main_developments_block .main_developments_block_head span.link_all_events {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 3px 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -7px;
+    cursor: pointer;
+}
+#main_developments_block .main_developments_block_head span:last-child:hover {
+    color: white;
+    border: 1px solid transparent;
+    background: rgba(0, 0, 0, 0.2);
+}
+

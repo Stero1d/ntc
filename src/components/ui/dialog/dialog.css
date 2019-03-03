@@ -1,0 +1,83 @@
+.ui.modal .close.icon {
+    right: 10px;
+    top: 10px;
+    opacity: 0.8;
+    position: absolute;
+    cursor: pointer;
+}
+
+.ui.modal .close.icon svg {
+    fill: rgba(0, 0, 0, 0.4);
+}
+
+.ui.modal .close.icon:hover {
+    opacity: 1;
+}
+
+ui.page.modals.dimmer.transition.visible.active {
+    padding: 0px;
+}
+
+#dialog_modal_window.editor_article_dialog {
+    width: 100%;
+    height: 100%;
+}
+
+#dialog_modal_window.editor_article_dialog .content,
+#dialog_modal_window.editor_article_dialog .content > div {
+    height: 100%;
+}
+
+#dialog_modal_window.editor_article_dialog .demo-wrapper.rdw-editor-wrapper {
+    height: calc(100% - 53px);
+    margin-bottom: 0px;
+}
+
+#dialog_modal_window.editor_article_dialog .rdw-editor-main {
+    height: calc(100% - 30px);
+}
+
+#dialog_modal_window.ui.modal.active.warning_dialog {
+    width: 430px;
+    height: 430px;
+}
+
+#dialog_modal_window .actions {
+    display: flex;
+    justify-content: center;
+}
+
+#dialog_modal_window {
+    display: flex!important;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+#dialog_modal_window .header,
+#dialog_modal_window .actions {
+    border: none;
+    background: none;
+}
+
+#dialog_modal_window .header {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.dialog_custom_content,
+.container_icon_check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#dialog_modal_window.visible.active.feedBack_dialog {
+    width: 460px;
+    height: 460px;
+ }
+
+.active.feedBack_dialog .header {
+    padding-bottom: 0px;
+}

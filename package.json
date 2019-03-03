@@ -1,0 +1,48 @@
+{
+  "name": "ntc",
+  "proxy": "http://localhost:8090",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "ajv": "^6.5.4",
+    "axios": "^0.18.0",
+    "browser-cookies": "^1.2.0",
+    "draft-js": "0.10.4",
+    "draftjs-to-html": "^0.8.4",
+    "history": "^4.7.2",
+    "html-to-draftjs": "^1.4.0",
+    "immutable": "^3.8.2",
+    "react": "^16.2.0",
+    "react-day-picker": "^7.2.4",
+    "react-dom": "^16.2.0",
+    "react-draft-wysiwyg": "^1.12.13",
+    "react-input-mask": "^2.0.4",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "^2.0.4",
+    "react-slick": "^0.23.2",
+    "redux": "^3.7.2",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-thunk": "^2.2.0",
+    "semantic-ui-css": "^2.3.3",
+    "semantic-ui-react": "^0.82.3",
+    "text-mask-addons": "^3.8.0"
+  },
+  "scripts": {
+    "start": "set PORT=3010 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "less": "^3.8.1",
+    "redux-devtools": "^3.4.1"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

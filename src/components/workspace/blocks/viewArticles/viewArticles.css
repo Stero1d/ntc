@@ -1,0 +1,29 @@
+@import "../../../../styles/styles.css";
+
+.atricles_view_block_head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.atricles_view_block {
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 20px 15px 5px 15px;
+    background: white;
+}
+
+.link.link_articles_view_block {
+    font-size: 12px;
+    height: 17px;
+}
+
+.atricles_view_block .title_view_articles_head {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'Roboto-Bold';
+}
+
+.horizontal_divider {
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}

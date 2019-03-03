@@ -1,0 +1,51 @@
+.user_info  {
+    display: flex;
+    align-items: center;
+}
+
+.user_avatar,
+.user_avatar > i.icon.user.circle.outline {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user_avatar {
+    margin-right: 10px;
+    border-radius: 100%;
+    background-size: cover!important;
+}
+
+.user_avatar > i.icon.user.circle.outline:before{
+    font-size: 32px;
+    color: rgba(29, 29, 27, 0.2);
+}
+
+.user_info .user_name {
+    font-weight: 600;
+    text-overflow: ellipsis;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 300px;
+}
+
+.user_info .user_science {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+}
+
+.user_date {
+    margin-left: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 13px;
+}
+
+

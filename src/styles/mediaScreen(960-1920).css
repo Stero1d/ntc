@@ -1,0 +1,103 @@
+@media (max-width: 1580px) {
+    .ui.button, .ui.buttons .button, .ui.buttons .or, .ui.buttons .button:hover,
+    .ui.button.btn_standart_style, .ui.button.btn_standart_style:hover {
+        font-size: 12px;
+    }
+
+    .administration_table_body_portal .row .column.status > div > span {
+        max-width: 180px;
+    }
+
+}
+
+@media (max-width: 1920px) {
+    .menu-navigation-search:not(.header_fixed) {
+        min-width: 960px;
+        max-width: 1190px;;
+    }
+
+    #workspace > div,
+    .menu-navigation-search.header_fixed > div,
+    .header-title-sign, .header-language-feedback > div,
+    .footer_links, .footer_language_feedback > div,
+    #main-footer .horizontal_divider {
+        min-width: 1190px;
+        max-width: 1190px;;
+    }
+
+    #workspace {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1380px) {
+    .header-title-sign {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1201px) {
+    #workspace > div,
+    .menu-navigation-search.header_fixed > div,
+    .header-title-sign, .header-language-feedback > div,
+    .footer_links, .footer_language_feedback > div,
+    #main-footer .horizontal_divider {
+        min-width: 940px;
+        max-width: 940px;;
+    }
+
+    .menu-navigation-search:not(.header_fixed){
+        min-width: 940px;
+        max-width: 940px;
+    }
+
+    #workspace {
+        display: flex;
+        justify-content: center;
+    }
+
+    .info_article_label, .about_title,
+    .activities_title h2,
+    .atricles_view_block
+    .title_view_articles_head,
+    #main_developments_block
+    .main_developments_block_head
+    .main_developments_block_title{
+        font-size: 16px;
+    }
+
+    .article .article_label, .article_description_preview_img {
+        font-size: 14px;
+    }
+
+    .administration_content {
+        width: calc(100% - 220px);
+    }
+
+    .activities_content,
+    .about_content,
+    .library_content {
+        width: calc(100% - 215px);
+    }
+
+    #list_menu {
+        width: 200px;
+        padding: 0px 10px;
+        font-size: 14px;
+    }
+
+    .button-menu {
+        font-size: 15px;
+    }
+
+    i.icon.userInfo_arrow_left {
+        top: 0px;
+    }
+
+    .comments_title {
+        font-size: 16px;
+    }
+
+}
+

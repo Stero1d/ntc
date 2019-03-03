@@ -1,0 +1,35 @@
+.rdw-editor-toolbar {
+    border: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 0px;
+}
+
+.rdw-editor-main {
+    border: 1px solid rgba(0,0,0,0.1);
+    border-top: none;
+}
+
+.public-DraftStyleDefault-ltr {
+    margin: 0px;
+    padding: .67857143em 1em;
+}
+
+.DraftEditor-editorContainer {
+    height: 700px;
+}
+
+.demo-wrapper.rdw-editor-wrapper {
+    margin-bottom: 20px;
+}
+
+.rdw-block-dropdown {
+    width: 160px;
+}
+
+.public-DraftStyleDefault-ltr {
+    padding: 0px;
+}
+
+div[data-contents="true"] {
+    padding: 15px;
+    word-break: break-all;
+}

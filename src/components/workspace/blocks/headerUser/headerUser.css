@@ -1,0 +1,86 @@
+@import "../../../../styles/styles.css";
+
+#header_user {
+    height: 38px;
+    display: flex;
+    align-items: center;
+}
+
+.published_article_btn.btn.btn_user:hover {
+    opacity: 0.8;
+}
+
+.header_user_info_auth {
+    max-width: 580px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header_user_info_auth .ui.dropdown>.text {
+    display: none;
+}
+
+.header_user_info_auth .ui.dropdown .menu {
+    left: initial;
+    right: 0px;
+    top: 50px;
+    width: 190px;
+}
+
+.header_user_info_auth .ui.dropdown .menu .text {
+    font-size: 12px;
+    color: #000;
+    font-family: 'Roboto-Regular';
+}
+
+.header_user_info_auth .ui.dropdown>.dropdown.icon:before {
+    color: rgba(29, 29, 27, 0.5);
+    font-size: 18px;
+}
+
+.header_user_info_auth .ui.dropdown {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.header_user_info_user_menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.user_info .my_info_user {
+    font-family: 'Roboto-Regular';
+}
+
+.published_article_btn.btn.btn_user.articles_btn_style.btn_standart_style {
+    margin-right: 20px;
+    font-size: 12px;
+    border-radius: 20px;
+    background: #7CB8B0;
+    height: 30px;
+}
+
+.user_name_science {
+    max-width: 300px;
+}
+
+#header_user .ui.button:not(.icon)>.icon:not(.button):not(.dropdown) {
+    font-size: 10px;
+    color: white;
+    opacity: 1;
+    width: 10px;
+    position: relative;
+    top: -2px;
+}
+
+.header-sign .vertical-divider {
+    background: none;
+    width: auto;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto-Bold';
+    margin-top: 1px;
+}

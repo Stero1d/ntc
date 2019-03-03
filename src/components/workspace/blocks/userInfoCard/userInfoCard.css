@@ -1,0 +1,36 @@
+@import "../../../../styles/styles.css";
+
+#user_info_card .data_content {
+    display: flex;
+}
+
+.ui.disabled.input, .ui.input:not(.disabled) input[disabled] {
+    opacity: 1;
+}
+
+textarea:disabled {
+    background: none;
+}
+
+.ui.input.container.container_about {
+    margin: 20px 0px;
+}
+
+#user_info_card .personal_data_right_panel {
+    padding: 0px;
+}
+
+#user_info_card .personal_data_left_panel .ui.input.container {
+    margin: 0px 0px 20px 0px;
+}
+
+.ui.input.container.container_about span {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 5px;
+    font-family: 'Roboto-Bold';
+}
+
+#user_info_card .personal_data_left_panel {
+    padding: 0px 25px 0px 0px;
+}

@@ -1,0 +1,37 @@
+@import "../../../../styles/styles.css";
+
+.info_event_label {
+    margin-bottom: 20px;
+}
+
+.content_info_event {
+    margin: 20px 0px 15px;
+}
+
+.info_event_label {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-family: 'Roboto-Bold';
+    word-break: break-word;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info_event_date {
+    color: rgba(29, 29, 27, 0.5);
+    margin-bottom: 5px;
+}
+
+.head_title_info_event {
+    display: flex;
+    align-items: flex-start;;
+}
+
+.head_title_info_event .eventInfo_arrow_left {
+    margin-right: 10px;
+    position: relative;
+    font-size: 16px;
+    top: 0px;
+}

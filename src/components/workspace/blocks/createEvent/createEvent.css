@@ -1,0 +1,45 @@
+@import "../../../../styles/styles.css";
+
+#create_event_block {
+    padding: 20px 15px 5px 15px;
+}
+
+#create_event_block .create_event_head {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#create_event_block .container_datePicker {
+    margin-bottom: 20px;
+    position: relative;
+    width: 180px;
+    margin-left: 10px;
+}
+
+#create_event_block .container_text_event {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#create_event_block h2{
+    font-size: 20px;
+    font-family: 'Roboto-Bold';
+}
+
+.actions_create_event {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+.actions_create_event .button.ui:first-child {
+    margin-right: 10px;
+}
+
+#create_event_block {
+    background: #fff;
+}
+
+

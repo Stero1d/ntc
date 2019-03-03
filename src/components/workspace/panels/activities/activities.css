@@ -1,0 +1,74 @@
+@import "../../../../styles/styles.css";
+
+#activities_page {
+    display: flex;
+    align-items: flex-start;
+    /*min-height: 563px;*/
+}
+
+#activities_page .atricles_view_block {
+    min-height: 563px;
+}
+
+.activities_content {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px 15px 5px 15px;
+    width: calc(100% - 285px);
+    background: white;
+}
+
+.activities_title {
+    margin-bottom: 20px;
+}
+
+.activities_title h2 {
+    font-size: 20px;
+}
+
+.activities_data {
+    /*min-height: 456px;*/
+    overflow: auto;
+    padding: 20px 15px 5px 15px;
+    font-family: 'Roboto-Regular';
+    line-height: 21px;
+}
+
+.activities_data ul {
+    margin: 20px 30px;
+}
+
+.activities_data ul li {
+    margin: 15px 0px;
+}
+
+i.icon.arrow.left:before {
+    color: rgba(29, 29, 27, 0.5);
+    cursor: pointer;
+}
+
+i.icon.arrow.left:hover:before {
+    color: rgba(29, 29, 27, 0.7);
+}
+
+i.icon.userInfo_arrow_left {
+    margin-right: 10px;
+    position: relative;
+    font-size: 16px;
+    top: -2px;
+}
+
+.activities_data .renderItems_developments {
+    border: none;
+}
+
+#activities_page .ui.segment.main_root_loading {
+    height: 130px;
+}
+
+.activities_data .development_item {
+    margin: 0px 0px 20px;
+}
+
+.activities_data .development_item:last-child {
+    margin-bottom: 10px;
+}

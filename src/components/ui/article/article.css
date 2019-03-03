@@ -1,0 +1,209 @@
+@import "../../../styles/styles.css";
+
+.article.article_item {
+    font-family: 'Roboto-Regular';
+}
+
+.article .article_label,
+.article_description_preview_img {
+    font-size: 16px;
+    font-family: 'Roboto-Bold';
+}
+
+.article .article_label {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.article .article_label .article_label_text {
+    word-break: break-word;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+
+.article.article_item {
+    margin: 15px 0px;
+}
+
+.article.article_item.activeArticle {
+    cursor: pointer;
+}
+
+.article_description_preview_img {
+    width: 190px;
+    height: 107px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.1);
+    margin-left: 15px;
+    background-size: cover!important;
+    border-radius: 2px;
+}
+
+.article .article_description {
+    display: flex;
+    justify-content: space-between;
+    max-height: 83px;
+    margin-top: 10px;
+}
+
+.article_description_text_info {
+    width: calc(100% - 245px);
+}
+
+.ui.button.read_more_article:hover {
+    opacity: 0.8;
+}
+
+.article_description_text_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.article_description {
+    /*margin-bottom: 20px;*/
+}
+
+.article_description_annotation {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.article .article_description_info_author {
+    max-width: 480px;
+}
+
+.status_article_preview_img {
+    height: 107px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    top: -26px;
+}
+
+.status_article {
+    font-size: 14px;
+    font-family: 'Roboto-Regular';
+    display: flex;
+}
+
+
+i.edit.outline.icon.edit_outline {
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    height: 20px;
+    width: 20px;
+}
+
+i.edit.outline.icon.edit_outline:hover {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.ui.dropdown.article_menu {
+    margin-left: 20px;
+}
+
+.ui.top.right.pointing.dropdown.article_menu > .menu{
+    margin-top: 0px;
+}
+
+.ui.dropdown.article_menu .menu:after {
+    display: none;
+}
+
+.ui.dropdown.article_menu .item {
+    font-size: 12px;
+    color: #000;
+    font-family: 'Roboto-Regular';
+}
+
+.ui.dropdown.article_menu .menu>.item:hover {
+    background: rgba(0, 0, 0, .05);
+}
+
+.ui.dropdown.article_menu .item:first-child {
+    display: none;
+}
+
+.status_article i.icon {
+    color: rgba(0,0,0,0.4);
+}
+
+.status_article div {
+    color: rgba(33, 32, 32, 0.5);
+}
+
+#main-root-page .status_article_preview_img .article_description_preview_img,
+#library_Page .status_article_preview_img .article_description_preview_img {
+    width: 228px;
+    height: 129px;
+}
+
+#main-root-page .status_article_preview_img,
+#library_Page .status_article_preview_img {
+    top: -57px;
+    width: 228px;
+    height: 129px;
+}
+#main-root-page .article.article_item,
+#library_Page .article.article_item {
+    margin: 15px 0 30px;
+}
+
+.article_item .article_label > span:first-child {
+    width: 100%;
+}
+
+.article_item .article_label .article_label_text span {
+    max-width: calc(100% - 350px);
+}
+
+.article_item.activeArticle:hover .article_label > span > .article_label_text {
+    text-decoration: underline;
+}
+
+#main-root-page .article_label,
+#library_Page .article_label {
+    max-width: calc(100% - 230px);
+}
+
+#my_publications .article_item .article_label > span {
+    max-width: calc(100% - 205px);
+}
+
+.article_label_subject {
+    background: #92B7E3;
+    border-radius: 20px;
+    padding: 0px 6px;
+    font-size: 12px;
+    color: white;
+    font-family: 'Roboto-Regular';
+    margin-left: 10px;
+}
+
+.status_article_preview_img.mobile_status_article_preview_img {
+    display: none;
+}
+
+.article_label_subject {
+    white-space: pre;
+}
+
+
+.article.article_item {
+    display: block;
+}
+
+.article.article_item.mobile_article {
+    display: none;
+}

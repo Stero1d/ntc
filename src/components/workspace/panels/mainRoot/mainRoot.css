@@ -1,0 +1,30 @@
+#main-root-page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.main-root-page_left_panel,
+.main-root-page_right_panel{
+    height: 100%;
+}
+
+.main-root-page_left_panel,
+.info-article-page_left_panel {
+    width: calc(100% - 355px);
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-root-page_right_panel,
+.info-article-page_right_panel {
+    width: 340px;
+    height: initial;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: white;
+}
+
+.atricles_view_block.newArticles {
+    margin-bottom: 15px;
+}

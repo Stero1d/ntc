@@ -1,0 +1,25 @@
+/**
+ * Created by smalkov on 04.09.2018.
+ Переменные для стилизации(подключается в каждый файл стилей если есть необходимость)
+ */
+
+@font-face {
+  font-family: Roboto-Bold; /* Имя шрифта */
+  src: url(fonts/Roboto-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: Roboto-Medium; /* Имя шрифта */
+  src: url(fonts/Roboto-Medium.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: Roboto-Regular; /* Имя шрифта */
+  src: url(fonts/Roboto-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+:root {
+  --main-bg-color: white;
+  --link-color: #7CB8B0;
+  --color-gray: rgba(0,0,0,0.1);
+}

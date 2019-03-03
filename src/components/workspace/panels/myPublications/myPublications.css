@@ -1,0 +1,12 @@
+#my_publications {
+    display: flex;
+    align-items: flex-start;
+}
+
+.library_content {
+    width: calc(100% - 285px);
+}
+
+.my_publications .library_content {
+    border: 1px solid rgba(0,0,0,0.1);
+}

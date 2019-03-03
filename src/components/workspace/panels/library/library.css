@@ -1,0 +1,13 @@
+#library_Page {
+    display: flex;
+    align-items: flex-start;
+    min-height: 563px;
+}
+
+.library_content {
+    width: calc(100% - 285px);
+}
+
+#library_Page .atricles_view_block {
+    min-height: 563px;
+}

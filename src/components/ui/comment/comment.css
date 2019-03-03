@@ -1,0 +1,31 @@
+.forWhom_comments {
+    color: #7CB8B0;
+    cursor: pointer;
+}
+
+#comment {
+    margin: 15px 0px;
+}
+
+.comment_text,
+.replay{
+    margin-left: 37px;
+}
+
+.replay {
+    display: flex;
+    align-items: center;
+}
+
+.replay .user_date {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+#info_article_comments .replay .user_date {
+    display: none;
+}
+
+.comment_text {
+    word-break: break-word;
+}

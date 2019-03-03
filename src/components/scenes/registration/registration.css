@@ -1,0 +1,121 @@
+@import "../../../styles/styles.css";
+
+.ui.modal.registration_auth_panel {
+    width: 500px;
+    height: 550px;
+    padding: 35px 50px ;
+    position: relative;
+}
+
+.registration-auth_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.42857143rem;
+    line-height: 1.28571429em;
+    font-weight: 700;
+}
+
+.registration_auth_panel.ui.modal > div >.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1em;
+    line-height: 1.4;
+    padding: 1.5rem;
+    background: #fff;
+}
+
+.registration_auth_panel .ui.input>input {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.registration_auth_panel .ui.input > div >input:focus {
+    border: 1px solid #7CB8B0;
+}
+
+.registration_auth_panel.ui.modal > div >.header {
+    padding: 0px;
+    border-bottom: none;
+}
+
+.registration_auth_panel.ui.modal > div >.actions {
+    border-top: none;
+    background: none;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+.registration_auth_panel.ui.modal > div >.actions>button {
+    width: 206px;
+    height: 36px;
+    margin: 0px;
+    background: #7CB8B0;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px!important;
+}
+
+.registration_auth_panel.ui.modal > div >.actions>button:hover {
+    opacity: 0.8;
+}
+
+.registration_auth_panel .ui.input {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration_auth_panel .ui.input.container {
+    margin: 10px 0px;
+}
+
+.registration_auth_panel .ui.input.container > span {
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+    font-family: 'Roboto-Bold';
+}
+
+.registration_text {
+    width: 338px;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 13px;
+}
+
+.container_registration_warning,
+.container_registration_success {
+    margin: 80px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.container_registration_success div,
+.container_registration_warning div{
+    margin-top: 10px;
+}
+
+.yes_sign_in {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 290px;
+    margin: 60px auto 0px;
+}
+.yes_sign_in_text {
+    color: rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid transparent;
+}
+
+.yes_sign_in_title {
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 290px;
+    margin: 25px auto 10px;
+    line-height: 1.4;
+}

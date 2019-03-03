@@ -1,0 +1,29 @@
+@import "../../../../styles/styles.css";
+
+#list_menu .list_item_menu {
+    cursor: pointer;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 16px;
+    color: rgba(33, 32, 32, 0.6);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#list_menu .list_item_menu:first-child {
+    border: none;
+}
+
+#list_menu {
+    width: 270px;
+    padding: 0px 20px;
+    margin-right: 15px;
+    border: 1px solid rgba(0,0,0,0.1);
+    background: white;
+    font-family: 'Roboto-Medium';
+}
+
+#list_menu .active_menu_tab {
+    color: #212020;
+}

@@ -1,0 +1,169 @@
+@import "../../../../styles/styles.css";
+
+#main_personal_data {
+    width: calc(100% - 285px);
+    border: 1px solid rgba(0,0,0,0.1);
+    background:white;
+}
+
+#main_personal_data .main_personal_data_content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#main_personal_data .main_personal_data_title {
+    margin: 25px 25px 0px;
+}
+
+.personal_data_right_panel {
+    width: 30%;
+    height: 100%;
+    padding: 43px 70px 25px 0px;
+}
+
+.personal_data_left_panel {
+    width: 70%;
+    height: 100%;
+    padding: 0px 25px 25px;
+}
+
+.personal_data_left_panel_title {
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Roboto-Bold';
+    margin-bottom: 25px;
+}
+
+.personal_data_left_panel .ui.input.container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.personal_data_left_panel .ui.input.container > span,
+.personal_data_right_panel .ui.input.container > span {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 5px;
+    font-family: 'Roboto-Bold';
+}
+
+.personal_data_left_panel .ui.input.container > span > span {
+    color: red;
+}
+
+.ui.input.container.container_date > div {
+    display: flex;
+    align-items: center;
+}
+
+.ui.input.container.container_date > div > div {
+    margin-right: 25px;
+}
+
+.container_date .ui.selection.dropdown {
+    min-width: 0px;
+}
+
+.container_date .ui.selection.dropdown.dateOfBirth_day {
+    width: 90px;
+}
+
+.container_date .ui.selection.dropdown.dateOfBirth_month {
+    width: 140px;
+}
+
+.container_date .ui.selection.dropdown.dateOfBirth_year {
+    width: 105px;
+}
+
+.container_date .ui.selection.dropdown .visible {
+    max-height: 185px;
+}
+
+.personal_data_right_panel .ui.input.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 160px;
+}
+
+.personal_data_right_panel .avatar_container {
+    width: 170px;
+    height: 178px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.personal_data_right_panel .ui.input.container .link.download_avatar {
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+    color: var(--link-color);
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.personal_data_right_panel .ui.input.container .link.download_avatar:hover {
+    border-color: var(--link-color);
+    height: 17px;
+}
+
+.personal_data_right_panel .ui.input.container .avatar_container > i {
+    width: 160px;
+    height: 160px;
+    font-size: 130px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(29, 29, 27, 0.3);
+}
+
+.avatar_container #img-preview {
+    width: 170px;
+    height: 178px;
+    background-size: cover!important;
+}
+
+.ui.button.save_personal_data_btn {
+    height: 36px;
+}
+
+.avatar_change_btn.ui.button{
+    padding: 0px 0em;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    margin-top: 20px;
+    height: 32px;
+    margin-right: 0px;
+}
+
+.not_photo_avatar {
+    height: 178px;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(239, 237, 237, 0.46);
+}
+
+.ui.input.container.mobile_avatar {
+    display: none;
+}
+
+.not_photo_avatar div {
+    color: rgba(0, 0, 0, 0.37);
+    margin-top: 20px;
+}
+
+textarea.about {
+    height: 100px;
+}
+
+textarea.achievements {
+    height: 50px;
+}
